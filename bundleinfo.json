@@ -1,0 +1,26 @@
+{
+  "materials": {},
+  "prefabs": {
+    "leftsaber1": "assets/burning/prefabs/leftsaber1.prefab",
+    "leftsaberb": "assets/burning/prefabs/leftsaberb.prefab",
+    "rightsaber1": "assets/burning/prefabs/rightsaber1.prefab",
+    "rightsaberb": "assets/burning/prefabs/rightsaberb.prefab",
+    "sabertrail": "assets/burning/prefabs/sabertrail.prefab",
+    "scene1": "assets/burning/prefabs/scene1.prefab",
+    "scene2": "assets/burning/prefabs/scene2.prefab",
+    "scene3": "assets/burning/prefabs/scene3.prefab",
+    "scene4": "assets/burning/prefabs/scene4.prefab",
+    "custom note debris": "assets/vivifytemplate/utilities/prefabs/custom objects/custom note debris.prefab",
+    "custom note dot": "assets/vivifytemplate/utilities/prefabs/custom objects/custom note dot.prefab",
+    "custom note": "assets/vivifytemplate/utilities/prefabs/custom objects/custom note.prefab"
+  },
+  "bundleFiles": [
+    "F:/Games/Beat Saber VR/Beat Saber_Data/CustomWIPLevels/Burning Sands/bundleWindows2019.vivify",
+    "F:/Games/Beat Saber VR/Beat Saber_Data/CustomWIPLevels/Burning Sands/bundleWindows2021.vivify"
+  ],
+  "bundleCRCs": {
+    "_windows2019": 603671155,
+    "_windows2021": 4250520054
+  },
+  "isCompressed": true
+}
