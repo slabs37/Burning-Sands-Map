@@ -1,7 +1,7 @@
 # What is this?
 These are the source files for a Beat Saber custom map made using the Vivify mod.
 
-- [Map Zenmode Video](https://www.youtube.com/watch?v=YZf9ZqfXNcc)
+- [Map Zen Mode Video](https://www.youtube.com/watch?v=YZf9ZqfXNcc)
 - [Map Download](https://beatsaver.com/maps/4e1ae)
 - [Song](https://www.youtube.com/watch?v=gyxh9R59oj4)
 
