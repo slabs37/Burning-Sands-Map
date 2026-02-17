@@ -15,12 +15,12 @@
     "custom note": "assets/vivifytemplate/utilities/prefabs/custom objects/custom note.prefab"
   },
   "bundleFiles": [
-    "F:/Games/Beat Saber VR/Beat Saber_Data/CustomWIPLevels/Burning Sands/bundleWindows2019.vivify",
-    "F:/Games/Beat Saber VR/Beat Saber_Data/CustomWIPLevels/Burning Sands/bundleWindows2021.vivify"
+    "F:/Games/Beat Saber VR/Beat Saber_Data/CustomWIPLevels/Burning Sands/bundleWindows2021.vivify",
+    "F:/Games/Beat Saber VR/Beat Saber_Data/CustomWIPLevels/Burning Sands/bundleWindows2019.vivify"
   ],
   "bundleCRCs": {
-    "_windows2019": 603671155,
-    "_windows2021": 4250520054
+    "_windows2021": 3842455231,
+    "_windows2019": 1749190307
   },
   "isCompressed": true
 }

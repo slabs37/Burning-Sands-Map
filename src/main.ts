@@ -38,8 +38,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
             realtimeReflectionProbes: rm.BOOLEAN.True,
             shadows: rm.SHADOWS.HardOnly,
             shadowDistance: 64,
-            shadowResolution: rm.SHADOW_RESOLUTION.VeryHigh,
-            
+            shadowResolution: rm.SHADOW_RESOLUTION.High,
         },
         renderSettings: {
             fog: rm.BOOLEAN.True,
@@ -247,7 +246,8 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
             note.noteJumpMovementSpeed = 15
         }
         //sc4
-        //335 - 342 slowly up, is bad
+        //335 - 342 slowly up
+        // this really doesn't play well and i'm not gonna spend more time trying to get it good, let's just disable
         /*
         if (note.beat >= 335 && note.beat <= 342) {
             note.track.add('Sc4-1')
