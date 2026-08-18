@@ -21,9 +21,6 @@ Material:
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
-    _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
-    _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
-    _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -57,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexManipulationHeightMask:
-        m_Texture: {fileID: 2800000, guid: b529dba9e019a8841b0971e891995b0e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -2414,7 +2411,7 @@ Material:
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 0
-    - m_mainCategory: 0
+    - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_renderingCategory: 0
     - m_specialFXCategory: 0
@@ -2947,7 +2944,7 @@ Material:
     - s_start_VertexColors: 0
     - s_start_VertexGlitchMirror: 0
     - s_start_VertexGlitchTexture: 1
-    - s_start_VertexManipulationHeight: 0
+    - s_start_VertexManipulationHeight: 1
     - s_start_VertexScale: 0
     - s_start_VertexSphereMode: 0
     - s_start_VertexTornadoMode: 0

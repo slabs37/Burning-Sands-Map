@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18388559, g: 0.22886518, b: 0.3021438, a: 1}
+  m_IndirectSpecularColor: {r: 0.18335634, g: 0.22718483, b: 0.29576737, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -516,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 7457414427816506257, guid: a9ec69683413915418b9c600ae1deb57,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9ec69683413915418b9c600ae1deb57, type: 3}
@@ -604,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 3290779111016589691, guid: 49c270146fb63f04781cba83bbd68686,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3290779111016589691, guid: 49c270146fb63f04781cba83bbd68686,
         type: 3}
@@ -655,6 +655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scene1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3290779111016589692, guid: 49c270146fb63f04781cba83bbd68686,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49c270146fb63f04781cba83bbd68686, type: 3}
@@ -729,6 +734,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796030933801494065, guid: 9dec2768af0ca164293d35a579b579ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796030934367660050, guid: 9dec2768af0ca164293d35a579b579ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dec2768af0ca164293d35a579b579ee, type: 3}

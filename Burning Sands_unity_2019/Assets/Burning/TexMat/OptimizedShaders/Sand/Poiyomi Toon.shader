@@ -2469,7 +2469,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/6d750e4194ae0a7468739da334761e43"
 					poiMods.detailMask.g = maskBlend(poiMods.detailMask.g, poiMods.globalMask[(0.0 /*_DetailNormalGlobalMask*/)-1], (2.0 /*_DetailNormalGlobalMaskBlendType*/));
 				}
 				#if defined(PROP_DETAILNORMALMAP) || !defined(OPTIMIZER_ENABLED)
-				half3 detailNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_DetailNormalMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailNormalMapUV*/)], float4(10,10,0,0)), float4(0,0,0,0), (1.0 /*_DetailNormalMapStochastic*/)), (0.5 /*_DetailNormalMapScale*/) * poiMods.detailMask.g);
+				half3 detailNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_DetailNormalMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailNormalMapUV*/)], float4(10,10,0,0)), float4(0,0,0,0), (1.0 /*_DetailNormalMapStochastic*/)), (0.6 /*_DetailNormalMapScale*/) * poiMods.detailMask.g);
 				poiMesh.tangentSpaceNormal = BlendNormals(detailNormal, poiMesh.tangentSpaceNormal);
 				#endif
 			}
@@ -5731,7 +5731,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/6d750e4194ae0a7468739da334761e43"
 					poiMods.detailMask.g = maskBlend(poiMods.detailMask.g, poiMods.globalMask[(0.0 /*_DetailNormalGlobalMask*/)-1], (2.0 /*_DetailNormalGlobalMaskBlendType*/));
 				}
 				#if defined(PROP_DETAILNORMALMAP) || !defined(OPTIMIZER_ENABLED)
-				half3 detailNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_DetailNormalMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailNormalMapUV*/)], float4(10,10,0,0)), float4(0,0,0,0), (1.0 /*_DetailNormalMapStochastic*/)), (0.5 /*_DetailNormalMapScale*/) * poiMods.detailMask.g);
+				half3 detailNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_DetailNormalMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailNormalMapUV*/)], float4(10,10,0,0)), float4(0,0,0,0), (1.0 /*_DetailNormalMapStochastic*/)), (0.6 /*_DetailNormalMapScale*/) * poiMods.detailMask.g);
 				poiMesh.tangentSpaceNormal = BlendNormals(detailNormal, poiMesh.tangentSpaceNormal);
 				#endif
 			}

@@ -175,13 +175,12 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
         },
     })
     rm.assignPathAnimation(map, {
-        track: 'Sc3-2',
+        track: 'Sc3-2',  // THIS BREAKS NOTE SPAWNING SOMEHOW SFHKSBADHISBGAYISBSIYBF
         animation: {
             offsetPosition: [
                 [0,0,-50,0, "easeOutQuad"],
                 [0,0,-11,0.09, "easeInOutSine"],
-                [0,0,0,0.35],
-                [0,0,-1,0.6]
+                [0,0,0,0.35]
             ],
             dissolve: [
                 [0, 0],
@@ -239,8 +238,8 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
             note.noteJumpMovementSpeed = 10
         }
         if (note.beat >= 287 && note.beat <= 302) {
-            note.track.add('Sc3-2')
-            note.noteJumpMovementSpeed = 10
+            note.track.add('Sc3-1')
+            note.noteJumpMovementSpeed = 5
         }
         if (note.beat >= 303 && note.beat <= 334) {
             note.noteJumpMovementSpeed = 15

@@ -21,9 +21,6 @@ Material:
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
-    _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
-    _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
-    _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -650,7 +647,7 @@ Material:
     - _DetailMaskUV: 0
     - _DetailNormalGlobalMask: 0
     - _DetailNormalGlobalMaskBlendType: 2
-    - _DetailNormalMapScale: 0.5
+    - _DetailNormalMapScale: 0.6
     - _DetailNormalMapStochastic: 1
     - _DetailNormalMapUV: 0
     - _DetailTexGlobalMask: 0
