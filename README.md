@@ -15,3 +15,10 @@ Bones are by TANDA [on sketch fab](https://sketchfab.com/3d-models/low-poly-bone
 Ship inside was modified by me from the one by gabrielmendesm [on sketchfab](https://sketchfab.com/3d-models/low-poly-ship-command-room-498c4fac709c43b590ef911a1cd2262d)
 
 You can reuse all assets in this project in your own projects.
+
+# How to build
+Open the project in Unity and build the bundles via [Vivify Template](https://github.com/Swifter1243/VivifyTemplate) -> Build Configuration Window
+
+Install [Remapper](https://github.com/Swifter1243/ReMapper/wiki/Installing-ReMapper) and run the script with `deno run --allow-all src/main.ts`.
+
+That will create the output in the parent directory.
